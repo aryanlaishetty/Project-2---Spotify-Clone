@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav1">
+            <div class="logo"><i class="fa-brands fa-spotify"></i></div>
+        </div>
+
+        <div class="nav2">
+
+            <div class="homeSearch">
+                <button class="home"><i class="fa-solid fa-house"></i></button>
+                <div class="searchBar">
+                    <input type="text" placeholder="What do you want to play?" />
+                    <button class="searchAll"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="nav3">
+
+            <button class="explorePremium">
+                <span>Explore Premium</span>
+            </button>
+            <button class="installButton">
+                <div class="install"><i class="fa-solid fa-circle-down"></i><span>Install App</span></div>
+            </button>
+            <div class="topRightBtns">
+                <button><i class="fa-solid fa-bell"></i></button>
+                <button><i class="fa-solid fa-users"></i></button>
+            </div>
+            <div class="profileBtn">
+                <button><i class="fa-solid fa-i"></i></button>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="leftPanel">
+            <div class="library">
+                <div class="header">
+                    <span class="yourLib">Your Library</span>
+                    <div class="addExpand">
+                        <button class="plus"><i class="fa-solid fa-plus"></i><span class="create">Create</span></button>
+                        <div class="expandBtn">
+                            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="libBtns">
+                    <button class="playlist">Playlist</button>
+                    <button class="artists">Artists</button>
+                    <button class="albums">Albums</button>
+                    <button class="podShow">Podcasts & Shows</button>
+                </div>
+            </div>
+            <div class="listOfBoxesContainer">
+                <div class="listOfBoxes">
+                    <div class="listHead">
+                        <div class="searchList"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <button class="recent"><span>Recents</span><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                    <div class="boxes">
+                        <div class="box">
+                            <span class="sqr"><img src="likedSongs.jpg" alt=""></i></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">Liked Songs</div>
+                                <div class="l121Songs"><i class="fa-solid fa-thumbtack"></i>Playlist . 121 songs</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="Favourite 1.jpg" alt=""></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">Favourite 1</div>
+                                <div class="l121Songs"><i class="fa-solid fa-thumbtack"></i>Playlist . GROOT</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="Favourite 3.jpg" alt=""></i></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">Favourite 3</div>
+                                <div class="l121Songs"><i class="fa-solid fa-thumbtack"></i>Playlist . GROOT</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="The Child In Us🔱☮️.jpg" alt=""></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">The Child In Us &#128305 &#x262E</div>
+                                <div class="l121Songs">Playlist . Someone</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="Radhika Das640x640.jpg" alt=""
+                                    style="border-radius: 50px;"></i></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">Radhika Das</div>
+                                <div class="l121Songs">Artist</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="kailashKher.jpg" alt="" style="border-radius: 50px;"></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">Kailash Kher</div>
+                                <div class="l121Songs">Artist</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="Sajni (From.jpg" alt=""></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">Sajni (From "Laapataa Ladies")</div>
+                                <div class="l121Songs">Single . Ram Sampath</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <span class="sqr"><img src="openLetter.jpg" alt=""></i></span>
+                            <div class="ininBox">
+                                <div class="likedSongs">The Open Podcast - Podcast by Open Letter</div>
+                                <div class="l121Songs">Podcast . Open Letter</div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="sqr sqrIcontainer"><i class="fa-solid fa-folder"></i></i></div>
+                            <div class="ininBox">
+                                <div class="likedSongs">New Folder</div>
+                                <div class="l121Songs">0 Playlists</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="middlePanel">
+            <div class="allContainer">
+                <div class="headOfMid">
+                    <div class="headOfMidBtns">
+                        <button class="allBtn">All</button>
+                        <button class="musicBtn">Music</button>
+                        <button class="podcastBtn">Podcast</button>
+                    </div>
+                </div>
+
+                <div class="maxContent">
+
+                    <div class="suggestions">
+                        <div class="suggestBox">
+                            <img src="dhurandhar.jpeg" alt="Dhurandhar Songs">
+                            <div class="suggest1">Dhurandhar Songs</div>
+                        </div>
+                        <div class="suggestBox">
+                            <img src="Jogi.jpg" alt="Jogi">
+                            <div class="suggest2">Jogi</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+
+                        <div class="sectHeader">
+                            <div class="mfg">
+                                <div class="madeFor">Made For</div>
+                                <div class="groot">GROOT</div>
+                            </div>
+                            <div class="showAll">Show all</div>
+                        </div>
+
+                        <div class="songsHorizontal">
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="agamAggarwal.jpg" alt="Agam Aggarwal"></div>
+                                    <div class="songDescription">Agam Aggarwal, DJ Akash Rx, Jainen an...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="jagendraVerma.jpg" alt="Gajendra Verma"></div>
+                                    <div class="songDescription">Gajendra Verma, AP Dhilon, Ram Sampat...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="shankarMahadevan.jpg" alt="Shankar Mahadevan">
+                                    </div>
+                                    <div class="songDescription">Shankar Mahadevan, Bela Shende, Shankar...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="ajayatul.jpg" alt="Ajay-Atul"></div>
+                                    <div class="songDescription">With Ajay Gagavale, Atul Gogavale, Vais...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="kailashKher.jpg" alt="Kailash Kher"></div>
+                                    <div class="songDescription">Jhoomo re album, Kailash Kher...</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="section">
+
+                        <div class="sectHeader">
+                            <div class="mfg">
+                                <!-- <div class="madeFor">Made For</div> -->
+                                <div class="groot">Your Playlists</div>
+                            </div>
+                            <div class="showAll">Show all</div>
+                        </div>
+
+                        <div class="songsHorizontal">
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="agamAggarwal.jpg" alt="Agam Aggarwal"></div>
+                                    <div class="songDescription">Agam Aggarwal, DJ Akash Rx, Jainen an...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="jagendraVerma.jpg" alt="Gajendra Verma"></div>
+                                    <div class="songDescription">Gajendra Verma, AP Dhilon, Ram Sampat...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="shankarMahadevan.jpg" alt="Shankar Mahadevan">
+                                    </div>
+                                    <div class="songDescription">Shankar Mahadevan, Bela Shende, Shankar...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="ajayatul.jpg" alt="Ajay-Atul"></div>
+                                    <div class="songDescription">With Ajay Gagavale, Atul Gogavale, Vais...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="kailashKher.jpg" alt="Kailash Kher"></div>
+                                    <div class="songDescription">Kailash Kher...</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="section">
+
+                        <div class="sectHeader">
+                            <div class="mfg">
+                                <!-- <div class="madeFor">Made For</div> -->
+                                <div class="groot">Episodes you might like</div>
+                            </div>
+                            <div class="showAll">Show all</div>
+                        </div>
+
+                        <div class="songsHorizontal">
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="agamAggarwal.jpg" alt="Agam Aggarwal"></div>
+                                    <div class="songDescription">Agam Aggarwal, DJ Akash Rx, Jainen an...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="jagendraVerma.jpg" alt="Gajendra Verma"></div>
+                                    <div class="songDescription">Gajendra Verma, AP Dhilon, Ram Sampat...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="shankarMahadevan.jpg" alt="Shankar Mahadevan">
+                                    </div>
+                                    <div class="songDescription">Shankar Mahadevan, Bela Shende, Shankar...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="ajayatul.jpg" alt="Ajay-Atul"></div>
+                                    <div class="songDescription">With Ajay Gagavale, Atul Gogavale, Vais...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="kailashKher.jpg" alt="Kailash Kher"></div>
+                                    <div class="songDescription">Kailash Kher...</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="section">
+
+                        <div class="sectHeader">
+                            <div class="mfg">
+                                <!-- <div class="madeFor">Made For</div> -->
+                                <div class="groot">Throwbacks</div>
+                            </div>
+                            <div class="showAll">Show all</div>
+                        </div>
+
+                        <div class="songsHorizontal">
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="agamAggarwal.jpg" alt="Agam Aggarwal"></div>
+                                    <div class="songDescription">Agam Aggarwal, DJ Akash Rx, Jainen an...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="jagendraVerma.jpg" alt="Gajendra Verma"></div>
+                                    <div class="songDescription">Gajendra Verma, AP Dhilon, Ram Sampat...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="shankarMahadevan.jpg" alt="Shankar Mahadevan">
+                                    </div>
+                                    <div class="songDescription">Shankar Mahadevan, Bela Shende, Shankar...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="ajayatul.jpg" alt="Ajay-Atul"></div>
+                                    <div class="songDescription">With Ajay Gagavale, Atul Gogavale, Vais...</div>
+                                </div>
+                            </div>
+
+                            <div class="individualSong">
+                                <div class="album">
+                                    <div class="songThumbnail"><img src="kailashKher.jpg" alt="Kailash Kher"></div>
+                                    <div class="songDescription">Kailash Kher...</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="bottomNav">
+                    <hr class="topHR">
+                    <div class="anchorsContainer">
+                        <div class="upperAnchorBox">
+                            <div class="upperAnchorBoxLeft">
+                                <div class="anchorHeader">
+                                    <div class="headsOfAnchors">Company</div>
+                                    <div class="upperAnchorItems">About</div>
+                                    <div class="upperAnchorItems">Jobs</div>
+                                    <div class="upperAnchorItems">For the Record</div>
+                                </div>
+                                <div class="anchorHeader">
+                                    <div class="headsOfAnchors">Communities</div>
+                                    <div class="upperAnchorItems">For Artists</div>
+                                    <div class="upperAnchorItems">Developers</div>
+                                    <div class="upperAnchorItems">Advertising</div>
+                                    <div class="upperAnchorItems">Investors</div>
+                                    <div class="upperAnchorItems">Vendors</div>
+                                </div>
+                                <div class="anchorHeader">
+                                    <div class="headsOfAnchors">Useful Links</div>
+                                    <div class="upperAnchorItems">Support</div>
+                                    <div class="upperAnchorItems">Free Mobile App</div>
+                                    <div class="upperAnchorItems">Popular by country</div>
+                                    <div class="upperAnchorItems">Import Your Music</div>
+                                </div>
+                                <div class="anchorHeader">
+                                    <div class="headsOfAnchors">Spotify Plans</div>
+                                    <div class="upperAnchorItems">Premium Individual</div>
+                                    <div class="upperAnchorItems">Premium Duo</div>
+                                    <div class="upperAnchorItems">Premium Family</div>
+                                    <div class="upperAnchorItems">Premium Student</div>
+                                    <div class="upperAnchorItems">Spotify</div>
+                                </div>
+
+                            </div>
+                            <div class="upperAnchorBoxRight">
+                                <button class="instagram"><i class="fa-brands fa-instagram"></i></button>
+                                <button class="twitter"><i class="fa-brands fa-twitter"></i></button>
+                                <button class="facebook"><i class="fa-brands fa-facebook"></i></button>
+                            </div>
+                        </div>
+
+                        <hr class="buttomHR">
+
+                        <div class="lowerAnchorBox">
+                            <div class="lowerAnchorBoxLeft">
+                                <div class="lowerAnchorItems">Legal</div>
+                                <div class="lowerAnchorItems">Safety & Privacy Center</div>
+                                <div class="lowerAnchorItems">Privacy Policy</div>
+                                <div class="lowerAnchorItems">Cookies</div>
+                                <div class="lowerAnchorItems">About Ads</div>
+                                <div class="lowerAnchorItems">Accessibility</div>
+                            </div>
+                            <div class="lowerAnchorBoxRight">
+                                <div class="lowerAnchorItems">&#169 2025 Spotify AB</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rightPanel">
+            <div class="videoContainer">
+                <div class="videoHeader">
+                    <div class="leftPartofHeader">
+                        <button class="hideBtn"><i class="fa-solid fa-chevron-right"></i></button>
+                        <span class="videoTitle">Cry For Me</span>
+                    </div>
+                    <div class="rightPartofHeader">
+                        <button class="moreBtn"><i class="fa-solid fa-ellipsis"></i></button>
+                        <button class="expandBtnofHeader"><i
+                                class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+                    </div>
+
+                </div>
+                <div class="videoBox">
+                    <video class="theVideo" src="The-Weeknd-Cry-For-Me-Official-Music-Video_1080p.mp4" autoplay
+                        muted></video>
+                </div>
+                <div class="detailsHeader">
+                    <div class="detailsHeaderLeft">
+                        <div class="boldSongTitle">Cry For Me</div>
+                        <div class="artistName">The Weeknd</div>
+                    </div>
+                    <div class="detailsHeaderRight">
+                        <button class="copySongLink"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
+                        <button class="addToLikedSongs"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                </div>
+                <div class="artistAboutCard">
+                    <div class="aboutCardUpper">
+                        <span>About the Artist</span>
+                        <img src="the-weeknd.jpg" alt="The Weeknd">
+                    </div>
+
+                    <div class="artistDetails">
+                        <div class="artistName">The Weeknd</div>
+                        <div class="artistStats">
+                            <span>113,590,317 <br>Monthly Listeners</span>
+                            <button class="followBtn">Follow</button>
+                        </div>
+                        <div class="artistDescription">The Weeknd took over pop music & culture on his own terms
+                            filtering R&B, Pop,& hip-hop
+                            through...
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="creditsCard">
+                <div class="creditsHeader">
+                    <div class="credits">Credits</div>
+                    <div class="creditsShowAll">Show all</div>
+                </div>
+                <div class="artistStats">
+                    <span><span class="artistStatsName">The Weeknd </span> <br>Main Artist, <br>Producer</span>
+                    <button class="followBtn">Follow</button>
+                </div>
+                <div class="creditCards3">
+                    <div class="composerName">MIKE DEAN</div>
+                    <div class="composer">Composer, Producer</div>
+                </div>
+                <div class="composer2">
+                    <div class="composer2Name">Abel Tesfaye</div>
+                    <div class="composer">Composer</div>
+                </div>
+            </div>
+
+            <div class="creditsCard">
+                <div class="creditsHeader">
+                    <div class="credits">On tour</div>
+                    <div class="creditsShowAll">Show all</div>
+                </div>
+                <div class="tourDetailBoxes">
+                    <div class="time">
+                        <div class="month">Sept</div>
+                        <div class="date">27</div>
+                    </div>
+                    <div class="tourDescription tourDescriptionLineHeight">
+                        <div class="cityName">New York</div>
+                        <span>Global Citizen Festival <br> Sat 16:00 . Great...</span>
+                    </div>
+                </div>
+                <div class="tourDetailBoxes">
+                    <div class="time">
+                        <div class="month">Apr</div>
+                        <div class="date">20</div>
+                    </div>
+                    <div class="tourDescription tourDescriptionLineHeight">
+                        <div class="cityName">Ciudad de Mexico</div>
+                        <span>The Weeknd <br> Mon 21:00 . Estadio...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="creditsCard">
+                <div class="creditsHeader">
+                    <div class="credits nextInQueue">Next in queue</div>
+                    <div class="creditsShowAll">Open queue</div>
+                </div>
+                <div class="tourDetailBoxes queueSong">
+                    <div class="time">
+                        <img src="timeless_weeknd.jpg" alt="">
+                    </div>
+                    <div class="tourDescription">
+                        <div class="cityName">Timeless &#40;feat...</div>
+                        <span> <span class="lyricsSymbol">E</span> The Weeknd, ...</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottomBar">
+        <div class="bottomBarLeft">
+            <div class="bottomBarLeftSongThumbnail"><img src="timeless_weeknd.jpg" alt=""></div>
+            <div class="songDetails2Lines">
+                <div class="songNaam">Cry For Me</div>
+                <div class="artistNaam">The Weeknd</div>
+            </div>
+            <div class="addBtnInBottomBarLeft"><i class="fa-solid fa-plus"></i></div>
+        </div>
+        <div class="bottomBarMiddle">
+            <div class="playbackBtns">
+                <button><i class="fa-solid fa-shuffle"></i></button>
+                <button><i class="fa-solid fa-backward-step"></i></button>
+                <button><i class="fa-solid fa-circle-play" id="bigPlayBtn"></i></button>
+                <button><i class="fa-solid fa-forward-step"></i></button>
+                <button><i class="fa-solid fa-repeat"></i></button>
+            </div>
+            <div class="playbackRange">
+                <div class="currentTime">0:00</div>
+                <div class="songRange"><input type="range"></div>
+                <div class="endTime">0:00</div>
+            </div>
+
+        </div>
+        <div class="bottomBarRight">
+            <button><i class="fa-regular fa-circle-play"></i></button>
+            <button><i class="fa-solid fa-microphone"></i></button>
+            <button><i class="fa-solid fa-layer-group"></i></button>
+            <button><i class="fa-solid fa-computer"></i></button>
+            <div class="volume">
+                <button><i class="fa-solid fa-volume-high"></i></button>
+                <input type="range" class="songVolume">
+            </div>
+            <button><i class="fa-solid fa-border-top-left"></i></button>
+            <button><i class="fa-solid fa-expand"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>
